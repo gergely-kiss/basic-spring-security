@@ -1,0 +1,4 @@
+CREATE TABLE users (username VARCHAR(50) PRIMARY KEY, 
+password VARCHAR(1000), enable BOOLEAN NOT null)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4;
